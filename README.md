@@ -12,7 +12,7 @@
 
 IP 158.160.136.65
 
-Backend api.kolschik.nomoredomainsmonster.ru
+Backend https://api.kolschik.nomoredomainsmonster.ru
 
 ## Запуск проекта
 
