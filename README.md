@@ -10,7 +10,7 @@
 
 ## Ссылки на проект
 
-IP 158.160.132.172
+IP 158.160.136.65
 
 Backend https://api.kolschik.nomoredomainsmonster.ru
 
