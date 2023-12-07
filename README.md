@@ -12,7 +12,7 @@
 
 IP 158.160.132.172
 
-Backend https://api.reload.nomoredomainsmonster.ru
+Backend https://api.kolschik.nomoredomainsmonster.ru
 
 ## Запуск проекта
 
