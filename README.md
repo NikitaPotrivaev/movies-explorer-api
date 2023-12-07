@@ -8,6 +8,12 @@
 - Node.js;
 - Mongodb;
 
+## Ссылки на проект
+
+IP 158.160.132.172
+
+Backend https://api.reload.nomoredomainsmonster.ru
+
 ## Запуск проекта
 
 `npm run start` — запускает сервер   
