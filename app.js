@@ -6,6 +6,7 @@ const helmet = require('helmet');
 
 const { PORT = 3000, DB_ADDRESS = 'mongodb://127.0.0.1:27017/bitfilmsdb' } = process.env;
 
+const cors = require('cors');
 const auth = require('./middlewares/auth');
 const { createUser, login } = require('./controllers/users');
 const { userRouter } = require('./routes/users');
@@ -18,6 +19,11 @@ const limiter = require('./middlewares/limiter');
 const NotFound = require('./utils/NotFound');
 
 const app = express();
+app.use(cors({
+  origin: ['https://kolschik.nomoredomainsmonster.ru'],
+  credentials: true,
+  maxAge: 30,
+}));
 app.use(helmet());
 
 mongoose.connect(DB_ADDRESS, {
