@@ -20,7 +20,7 @@ const NotFound = require('./utils/NotFound');
 
 const app = express();
 app.use(cors({
-  origin: ['https://kolschik.nomoredomainsmonster.ru'],
+  origin: ['https://puppet.nomoredomainsmonster.ru'],
   credentials: true,
   maxAge: 30,
 }));
